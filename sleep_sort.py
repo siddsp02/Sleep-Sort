@@ -54,6 +54,7 @@ async def main(size: int, maximum: int) -> None:
         size (int): The size or length of the array.
         maximum (int): The maximum value of a number within the array.
     """
+    
     old_array = [random.randint(0, maximum) for _ in range(size)]
 
     # Unpack the results of the coroutine call.
